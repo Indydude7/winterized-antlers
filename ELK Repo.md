@@ -86,5 +86,3 @@ SSH into the control node and follow the steps below:
 - Copy the install-elk.yml file to /etc/ansible.
 - Update the hosts file to include 10.1.0.4 in a group named [elk].
 - Run the playbook, and navigate to http://(elk_server_IP):5601/app/kibana to check that the installation worked as expected.
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
