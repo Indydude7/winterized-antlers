@@ -2,11 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-<<<<<<< HEAD
 ![ELK Network](Diagrams/Week 13 Diagram.drawio.png)
-=======
-![ELK Network](Diagrams/Week 13 Diagram)
->>>>>>> 555a8af9c08efbbab4dc6d1f5be7cb0381292e7a
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select files in the Ansible folder may be used to install only certain pieces of it, such as Filebeat.
 
