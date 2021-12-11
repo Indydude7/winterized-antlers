@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](Diagrams/diagram_filename.png)
+![ELK Network](Diagrams/"Week 13 Diagram")
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select files in the Ansible folder may be used to install only certain pieces of it, such as Filebeat.
 
@@ -38,7 +38,7 @@ The configuration details of each machine may be found below.
 
 ### Access Policies
 
-The machines on the internal network are not exposed to the public Internet. 
+The machines on the internal network are not exposed to the public Internet.
 
 Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 - 45.29.51.35
@@ -82,7 +82,7 @@ These Beats allow us to collect the following information from each machine:
 - Metricbeat gauges CPU, Memory, and Disk usage for each machine. It also measures the levels of inbound and outbound traffic.
 
 ### Using the Playbook
-In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
+In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
 
 SSH into the control node and follow the steps below:
 - Copy the install-elk.yml file to /etc/ansible.
